@@ -1,6 +1,6 @@
 # Inventory
 
-Last updated: 2026-11-23
+Last updated: 2026-11-24
 
 ## Hosts
 
@@ -13,5 +13,5 @@ Last updated: 2026-11-23
 | Interface | Type | Used by | Address | Notes |
 | --- | --- | --- | --- | --- |
 | nic0 | Ethernet | vmbr0 | 192.168.1.250/24 | Temporary management, home network |
-| nic1 | Ethernet | vmbr1 (planned) | 172.16.99.1/30 | Break-glass access |
+| nic1 | Ethernet | vmbr1 | 172.16.99.1/30 | Break-glass access |
 | wlp3s0 | Wi-Fi | — | — | Unused |
