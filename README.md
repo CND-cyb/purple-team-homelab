@@ -13,6 +13,7 @@ The lab is split into four zones (administration, production, SOC and decoys), e
 | ADR | Decision |
 | --- | --- |
 | [0001](docs/adr/0001-isolate-proxmox-management-behind-opnsense.md) | Proxmox management only reachable from VLAN 10, with emergency access by direct cable |
+| [0002](docs/adr/0002-bootstrap-opnsense-access-through-proxmox.md) | First access to OPNsense through the Proxmox host on VLAN 10, via an SSH tunnel |
 
 ## Risks
 
